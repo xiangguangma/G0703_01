@@ -26,6 +26,8 @@ public class MainController {
         return "login";
     }
 
+    // 加个测试
+
     // 登录表单验证
     @RequestMapping(value = "/loginsubmit")
     public String loginsubmit(HttpServletRequest request) throws Exception {
